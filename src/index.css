@@ -1,0 +1,109 @@
+.webpage{
+    color: hsl(196, 100%, 50%);
+  }
+  h2{
+    color: #ff00a6;
+  }
+  Fragment{
+top: -2rem;
+  }
+  .fuctinal{
+    color: #c7124f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .classComponent{
+    color: #2aa576;
+  }
+
+  /* Todolist */
+  .div-style{
+  text-align: center;
+  height: 32rem;
+  background-color: hwb(260 22% 76%);
+  box-shadow: 5px 5px 6px 5px hwb(0 15% 85%);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px ;
+  position: relative;
+  width: 800px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+  .my-2{
+    width: 10rem;
+    height: 3rem;
+    color: #6e18f3;
+    padding: 40px;
+    font-size: 3rem;
+    filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
+            drop-shadow(5px 5px 5px rgba(0,0,0,0.2))
+            drop-shadow(15px 15px 15px rgba(0,0,0,0.2));
+  
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  body{
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 100vh;
+  }
+  .div-style h2{
+    font-size: 3.5rem;
+    line-height: 1rem;
+    padding: 17px 5px;
+  }
+  .div-style h2.text1{
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: -3px -3px 2px rgba(255, 255, 255, 0.3),
+    5px 5px 5px rgba(0,0,0,0.2),
+    15px 15px 15px rgba(0,0,0,0.2);
+  }
+  
+  .div-style h3.text2{
+    color: #131112;
+    padding: 40px;
+    font-size: 3rem;
+    filter: drop-shadow(-3px -3px 2px hsla(0, 10%, 62%, 0.82))
+            drop-shadow(5px 5px 5px rgba(0,0,0,0.2))
+            drop-shadow(15px 15px 15px rgba(0,0,0,0.2));
+  }
+  
+  .table-hr{
+    background-color: #6e18f3;
+  }
+.tobody-td{
+  background-color: #fff;
+  color: red;
+}
+  
+.my-3{
+  text-align: center;
+
+}
+.teable-h{
+  background-color: hwb(242 39% 2%);
+}
+.student{
+  float: left;
+position: relative;
+padding: 10px;
+margin-left: 10rem;
+}
+.my-3{
+  color: hsl(312, 46%, 65%);
+}
+.con-style{
+  background-color: hsl(320, 4%, 33%);
+  height: 30rem;
+  color: white;
+}
